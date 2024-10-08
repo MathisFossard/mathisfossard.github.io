@@ -6,7 +6,7 @@
     --blacktext: #000000;
     --bluebackground: #5b6c78;
     --bluebackground2: #414c55;
-    --redtext: #9f0000;
+    --redtext: #e60000;
   }
   
   * {
@@ -326,6 +326,8 @@
   
   .projets {
     background: var(--bluebackground2);
+    justify-content: center;
+    text-align: center;
   }
   
   .projets .grid__item {
@@ -440,8 +442,10 @@
   .cardcenter{
     display: flex;
     text-align: center;
+    width: 500px;
+    justify-content: center;
   }
-  
+
   /* Footer */
   
   footer {
